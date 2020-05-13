@@ -1,13 +1,13 @@
 # passport-local
-## install
+# install
 
-#git clone repo
+##git clone repo
 
-#npm install
+##npm install
 
-#npm start
+##npm start
 
-#open in browsr
+##open in browsr
 
 ##http://localhost:3000
 
