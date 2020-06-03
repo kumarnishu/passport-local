@@ -1,4 +1,6 @@
+require('dotenv').config()
 var createError = require("http-errors");
+
 var express = require("express");
 var path = require("path");
 var logger = require("morgan");
@@ -23,7 +25,7 @@ hbs.registerPartials("./views/partial")
 
 // database connection
 mongoose
-  .connect(process.env.MONGO_URI || "mongodb://localhost/react-blog", {
+  .connect(process.env.MONGO_URI || "mongodb://localhost/passport-local", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
